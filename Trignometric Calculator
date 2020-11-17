@@ -1,0 +1,38 @@
+print("Welcome To TrignoMetric Calculator")
+
+#THE MEASUREMENTS
+
+P = int(input("Enter The Perpendicular : "))
+H = int(input("Enter The Hypotenuse : "))
+B = int(input("Enter The Base : "))
+
+#THE RESULT
+
+var1 = input("What Do You Want To Find : ")
+while var1 == 'Sin':
+    print(P,"/",H,"Or",P/H *1)
+    continue
+if var1 == 'Cos':
+    print(B, "/", H, "Or" , B/H)
+if var1 == 'Tan':
+    print(P,"/",B,"Or",P/B)
+
+#THE REVERSALS
+
+if var1 == 'Cosec':
+    print(H,"/",P,"Or",H/P)
+if var1 == 'Sec':
+    print(H,"/",B,"Or",H/B)
+if var1 == 'Cot':
+    print(B,"/",P,"Or",B/P)
+    
+print("Thanks For Using :)")
+
+
+
+
+
+
+
+
+
